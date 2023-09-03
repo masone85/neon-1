@@ -61,7 +61,6 @@ img {
 }
 
 .about-section {
-  
   padding: 160px 20px;
 }
 
@@ -70,14 +69,15 @@ img {
   line-height: 1;
 }
 
-
 .about-section h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
 
-
-
+.about-section-content {
+  margin: 30px;
+  align-content: var(--default-font-family);
+}
 
 .btn-branding {
   background: var(--branding-color);
@@ -113,6 +113,11 @@ img {
 
   .hero {
     padding: 80px 20px;
+  }
+
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
 
   .project-desciption {
