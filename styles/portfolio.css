@@ -64,7 +64,7 @@ img {
   padding: 160px 20px;
 }
 
-.content-container h1 {
+.content h1 {
   font-size: 64px;
   line-height: 1;
 }
@@ -74,9 +74,17 @@ img {
   font-family: var(--default-font-family);
 }
 
-.content {
+.content h3 {
   margin: 30px;
+  line-height: 1.5;
+  margin: 20px 0 0;
   align-content: var(--default-font-family);
+}
+
+.content p {
+  
+  font-size: 14px;
+  
 }
 
 .btn-branding {
